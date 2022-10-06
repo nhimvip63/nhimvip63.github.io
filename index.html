@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/normalize.css"/>
+    <link rel="stylesheet" href="assets/grid.css"/>
+    <link rel="stylesheet" href="assets/styles.css"/>
+    <script type=module src="/assets/header.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <div class="topbar__wrap grid wide">
+                <a href="" class="topbar__item">Khám phá</a>
+                <a href="" class="topbar__item">Đặt giao hàng</a>
+                <a href="" class="topbar__item">Đi chợ</a>
+                <a href="" class="topbar__item">NowPOS</a>
+                <a href="" class="topbar__item">Giảm giá</a>
+            </div>
+        </div>
+        <div class="toolbar">
+            <div class="toolbar__wrap grid wide">
+                <div class="toolbar__leftItem">
+                    <div class="toolbar__logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="toolbar__select">
+                        <div class="toolbar__select-name">
+                            <span>Hà Nội</span>
+                            <i class="toolbar-fa fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                    <div class="toolbar__select">
+                        <div class="toolbar__select-name">
+                            <span>Ăn uống</span>
+                            <i class="toolbar-fa fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                    <div class="toolbar__search">
+                        <div class="toolbar__search-wrap">
+                            <input class="toolbar__search-input" id="the-filter" type="text" placeholder="Địa điểm, món ăn, loại hình, ...">
+                            <div class="search__history">
+								<h3 class="search__history-heading">
+									Đã xem gần đây
+								</h3>
+								<div class="search__history-list">
+									<div class="search__history-item">
+                                        <a href="/detail.html?id=1" class="search__history-wrap">
+                                            <div class="" style="display: flex;">
+                                                <div class="search__history-img">
+                                                    <img src="/img/suggest/a 30.jpg" alt="">
+                                                </div>
+                                                <div class="search__history-content">
+                                                    <div class="history__content-title">
+                                                        Unbranded Plastic Table
+                                                    </div>
+                                                    <div class="history__content-address">
+                                                        259 Fadel Pine
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="search__history-right">
+                                                Đang mở
+                                                <div class="search__history-ball"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+								</div>
+							</div>
+                        </div>
+                        <div class="toolbar__search-wrap-icon">
+                            <div class="toolbar__search-filter">
+                                <i class="fa-solid fa-sliders"></i>
+                                <span>Bộ lọc</span>
+                            </div>
+                            <button class="toolbar__search-icon">
+                                <span class="fa-solid fa-magnifying-glass"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="toolbar__menuHeader">
+                        <div class="toolbar__menuHeader-bar">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="toolbar__menuHeader-apps" id="cart">
+                            <span class="fa-solid fa-mobile-screen"><span style="padding-left: 2px;">Apps</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="toolbar__rightItem">
+                    <div class="toolbar__rightItem-login">
+                        <a href="#"><span>Đăng nhập</span></a>
+                    </div>
+                    <div class="toolbar__rightItem-notify">
+                        <div class="">
+                            <span class="fa-solid fa-bell"></span>
+                        </div>
+                    </div>
+                    <div class="toolbar__rightItem-notify">
+                        <div class="">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="toolbar__rightItem-language">
+                        <img src="img/vn.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="banner">
+            <div class="banner__img">
+                <a href="#" class="">
+                    <img src="img/banner.jpg" alt="">
+                </a>
+            </div>
+            <div class="banner__caption">
+                <span>Foody App trên Mobile</span>
+                <p>Khám phá, đặt bàn, giao tận nơi</p>
+            </div>
+        </div>
+        <div class="grid wide">
+            <div class="suggest">
+                <div class="suggest__menu">
+                    <div class="suggest__menu-icon">
+                        <img src="img/icon-delivery.png" alt="">
+                    </div>
+                    <div class="suggest__menu-title">
+                        Giao tận nơi
+                    </div>
+                    <div class="suggest__menu__nav">
+                        <div class="suggest__menu__nav--item suggest__menu__nav--active">Deal hôm nay</div>
+                        <div class="suggest__menu__nav--item">Tất cả</div>
+                        <div class="suggest__menu__nav--item">Đồ ăn</div>
+                        <div class="suggest__menu__nav--item">Đồ uống</div>
+                        <div class="suggest__menu__nav--item">Đồ chay</div>
+                        <div class="suggest__menu__nav--item">Bánh kem</div>
+                        <div class="suggest__menu__nav--item">Tráng miệng</div>
+                        <div class="suggest__menu__nav--item">Xem thêm
+                            <i class="fa-solid fa-angle-down" style="font-size: 0.75rem;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row suggestt" style="padding: 20px 20px 0 20px;">
+                    <div class="col l-2-4">
+                        <div class="suggest__item-wrap">
+                            <div class="suggest__item-img">
+                                <img src="img/suggest/a 1.jpg" alt="">
+                            </div>
+                            <div class="suggest__item-title">
+                                Lẩu Đức Trọc - Đường Láng
+                            </div>
+                            <div class="suggest__item-address">
+                                790 Đường Láng, Đống Đa, Hà Nội
+                            </div>
+                            <div class="suggest__item-label">
+                                <i class="fa-solid fa-tag" style="color: red;"></i>
+                                <span style="font-size: 0.75rem;">Boozer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainProduct">
+                <div class="row">
+                    <div class="col l-2">
+                        <div class="exploreList">
+                            <div class="exploreList__title">
+                                <div class="exploreList__title-logo">
+                                    <img src="img/logo-s.png" alt="">
+                                </div>
+                                <div class="exploreList__title-name">Khám phá</div>
+                            </div>
+                            <div class="exploreList__item exploreList__item--active">Ở đâu
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="exploreList__item">Giao hàng
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="exploreList__item">Ăn gì
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="exploreList__item">Sưu tập
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="exploreList__item">TV
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="exploreList__item">Bình luận
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="exploreList__item">Blogs
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="exploreList__item">Khuyến mãi
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-10">
+                        <div class="mainProduct__navbar">
+                            <div class="mainProduct__navbar-left">
+                                <div class="mainProduct__navbar-item mainProduct__navbar-item--active">Mới nhất</div>
+                                <div class="mainProduct__navbar-item">Gần tôi</div>
+                                <div class="mainProduct__navbar-item">Đã lưu</div>
+                            </div>
+                            <div class="mainProduct__navbar-right">
+                                <select name="" id="hehe" class="mainProduct__navbar-select">
+                                    <option value="" selected>- Sắp xếp -</option>
+                                    <option value="1" >- A -> Z -</option>
+                                    <option value="2" >- Z -> A -</option>
+                                    <option value="3" >- Nhiều lượt cmt -</option>
+                                </select>
+                                <select name="" id="hihi" class="mainProduct__navbar-select">
+                                    <option value="" selected>- Loại -</option>
+                                    <option value="1" >- Đồ ăn -</option>
+                                    <option value="5" >- Đồ uống -</option>
+                                </select>
+                                <select name="" id="" class="mainProduct__navbar-select">
+                                    <option value="" selected>- Quận/Huyện -</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row newest" style="padding: 15px 10px 0 10px">
+                            <div class="col l-3">
+                                <div class="mainProduct__item-wrap">
+                                    <div class="mainProduct__item-img">
+                                        <img src="img/suggest/a 1.jpg" alt="">
+                                    </div>
+                                    <div class="mainProduct__item-title">
+                                        Lẩu Đức Trọc - Đường Láng
+                                    </div>
+                                    <div class="mainProduct__item-address">
+                                        790 Đường Láng, Đống Đa, Hà Nội
+                                    </div>
+                                    <div class="mainProduct__item-price"> <i class="fa-solid fa-tag" style="color: #333"></i> 80000 $</div>
+                                    <div class="mainProduct__item-comment">
+                                        <div class="mainProduct__item-comment--avatar">
+                                            <img src="img/avatar.png" alt="">
+                                        </div>
+                                        <div class="mainProduct__item-comment--text">
+                                            <span>Phamngocquynhx</span>
+                                            <p>Cơm thì chỗ cứng chỗ thì nát, hình như hải sản còn bị thối!!? Nói chung là nên cạch quán ra!</p>
+                                        </div>
+                                    </div>
+                                    <div class="mainProduct__item-bottom">
+                                        <div class="mainProduct__item-bottom--left">
+                                            <div class="mainProduct__item-bottom--left1">
+                                                <i class="fa-solid fa-comment"></i>
+                                                <span>2</span>
+                                            </div>
+                                            <div class="mainProduct__item-bottom--left1">
+                                                <i class="fa-solid fa-camera"></i>
+                                                <span>4</span>
+                                            </div>
+                                        </div>
+                                        <div class="mainProduct__item-bottom--right">
+                                            <i class="fa-solid fa-bookmark"></i>
+                                            <span>Lưu</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-product">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                        <div class="pagination" id="pagination">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Giỏ Hàng</h5>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                        <span class="cart-price cart-header cart-column">Giá</span>
+                        <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                    </div>
+                    <div class="cart-items">
+                        
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Tổng Cộng:</strong>
+                        <span class="cart-total-price">0 $</span>
+                    </div>
+                </div>
+    
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                    <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <my-footer></my-footer>
+    <script src="/assets/scripts.js"></script>
+</body>
+</html>
